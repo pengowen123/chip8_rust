@@ -1,0 +1,4 @@
+target
+games
+*.vi
+.gdb_history

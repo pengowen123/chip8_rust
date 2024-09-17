@@ -1,0 +1,14 @@
+[package]
+authors = ["Owen Sanchez <pengowen816@gmail.com>"]
+name = "chip8_bin"
+version = "0.1.0"
+
+[dependencies]
+app_dirs = "1.1"
+clap = "2.20"
+env_logger = "0.4"
+error-chain = "0.8"
+
+[dependencies.chip8]
+features = ["default_io"]
+path = "./emulator/"
